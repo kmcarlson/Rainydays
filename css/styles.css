@@ -3,23 +3,33 @@ header a {
 }
 
 .imgtext {
-    background: red;
+    background: transparent;
     color: #fff;
 }
 
 .font-article{
     background: blue;
     color: #fff;
+    width: 25%;
+    float: left;
 }
 
 .smallfooter {
     background-color: #517664;
     color: #fff;
-    height: 50px;
+    text-align: center;
+    font-size: small;
+    height: 300px;
 }
 
 footer {
     background: #2D3319;
     color: #fff;
     height: 100px;
+    text-align: center;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
