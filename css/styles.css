@@ -1,7 +1,25 @@
-footer {
-    background: seagreen;
+header a {
+    color:#2D3319;
 }
 
-header a {
-    color:red;
+.imgtext {
+    background: red;
+    color: #fff;
+}
+
+.font-article{
+    background: blue;
+    color: #fff;
+}
+
+.smallfooter {
+    background-color: #517664;
+    color: #fff;
+    height: 50px;
+}
+
+footer {
+    background: #2D3319;
+    color: #fff;
+    height: 100px;
 }
