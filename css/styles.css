@@ -13,6 +13,28 @@ font-family: 'Open Sans';
 
 header a {
 color:#2D3319;
+padding: 10px;
+}
+
+/*nav*/
+
+nav ul {
+    padding: 0px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+/*link*/
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
 }
 
 /* Fontpage */
@@ -39,12 +61,12 @@ justify-content:space-around;
 padding-bottom: 25px;
 }
 
-
+/*Icons*/
 .fa-user{
 position: absolute;
-right: 150px;
-width: 200px;
-height: 120px;
+right: 30px;
+/* width: 200px;
+height: 120px; */
 }
 
 /* Smallfooter  */
