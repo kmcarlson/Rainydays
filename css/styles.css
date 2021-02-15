@@ -1,70 +1,82 @@
 body {
-    color: #000;
-    background-color: #fff;
+color: #000;
+background-color: #fff;
 }
 
 h1, h3 {
-    font-family: 'Open Sans';
+font-family: 'Open Sans';
 } 
 
 p {
-    font-family: 'Open Sans';
+font-family: 'Open Sans';
 }
 
 header a {
-    color:#2D3319;
+color:#2D3319;
 }
 
-/* Footer  */
-footer {
-    background: #2D3319;
-    color: #fff;
-    height: auto;
-    text-align: center;
+/* Fontpage */
+.slidermid{
+background-image: url("../images/slider.png");
+min-height: 70vh;
+background-repeat: no-repeat;
 }
-
-.imgtext {
-    background: transparent;
-    color: #fff;
-}
-
-
-
-/* Font-category */
-.front-categories {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-  }
-
 
 /* Font - article  */
 
 .front-news{    
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+padding: 25px;
 }
 
-/* Prod-category */
-.prod-cat{    
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
+/* Font-category */
+.front-categories {
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+padding-bottom: 25px;
 }
 
 
-
-/* Smallfooter  */
-.smallfooter {
-    background-color: #517664;
-    color: #000;
-    text-align: center;
-    font-size: small;
-}
 .fa-user{
 position: absolute;
 right: 150px;
 width: 200px;
 height: 120px;
 }
+
+/* Smallfooter  */
+.smallfooter {
+background-color: #517664;
+color: #000;
+text-align: center;
+font-size: small;
+}
+
+/* Footer  */
+footer {
+background: #2D3319;
+color: #fff;
+height: auto;
+text-align: center;
+}
+
+.imgtext {
+background: transparent;
+color: #fff;
+}
+
+/* Prod-category */
+.prod-cat{    
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+}
+
+/*contakt*/
+ input,
+ textarea {
+     border: 5px, #707070
+ }
