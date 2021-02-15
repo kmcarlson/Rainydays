@@ -69,6 +69,11 @@ right: 30px;
 height: 120px; */
 }
 
+.fa-heart {
+    position: absolute;
+    right: 50px;
+}
+
 /* Smallfooter  */
 .smallfooter {
 background-color: #517664;
