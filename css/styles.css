@@ -60,7 +60,13 @@ a {
   flex-direction: row;
   justify-content: space-around;
   padding: 25px;
+  flex-wrap: wrap;
+  width: 100%;
 }
+
+/* .front-news .article {
+  min-width: 200px;
+} */
 
 /* Font-category */
 .front-categories {
@@ -68,6 +74,7 @@ a {
   flex-direction: row;
   justify-content: space-around;
   padding-bottom: 25px;
+  flex-wrap: wrap;
 }
 
 
