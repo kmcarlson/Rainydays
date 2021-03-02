@@ -1,6 +1,11 @@
+html, body {
+
+}
+
 body {
   color: #000;
   background-color: #fff;
+  margin: 0;
 }
 
 h1,
@@ -14,7 +19,8 @@ p {
 
 header a {
   color: #2d3319;
-  padding: 10px;
+  padding: 20px;
+  font-size: larger;
 }
 
 /*nav*/
@@ -36,6 +42,27 @@ a {
 
 .active {
   text-decoration: underline;
+}
+
+.topbar .infosection {
+  margin: 0;
+  background-color: #CACFD6;
+  max-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.topbar nav {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+}
+
+.topbar img {
+  max-width: 100px;
+  height: auto;
 }
 
 /* Frontpage */
@@ -61,7 +88,6 @@ a {
   justify-content: space-around;
   padding: 25px;
   flex-wrap: wrap;
-  width: 100%;
 }
 
 /* .front-news .article {
@@ -77,18 +103,46 @@ a {
   flex-wrap: wrap;
 }
 
+.article {
+  position: relative;
+  color: #fff;
+}
+
+.toptext > *, .bottomtext > * {
+  padding: 0;
+  margin: 0;
+}
+
+.article img {
+  width: 250px;
+  height: 250px;
+}
+
+.article .toptext {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.article .bottomtext {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
 
 /*Icons*/
-.fa-user {
+/* .fa-user {
   position: absolute;
   right: 30px;
-  /* width: 200px;
-    height: 120px; */
+  width: 200px;
+  height: 120px;
 }
+
 .fa-heart {
   position: absolute;
   right: 50px;
-}
+}  */
 
 /* Smallfooter  */
 .smallfooter {
@@ -122,6 +176,25 @@ footer {
 .imgtext {
   background: transparent;
   color: #fff;
+  position: relative;
+}
+
+.imgtext h1 {
+  position: absolute;
+  left: 1rem;
+}
+
+.imgtext a {
+  position: absolute;
+  bottom: .8rem;
+  left: 1rem;
+  color: #fff;
+}
+
+.imgtext img {
+  height: 400px;
+  width: 400px;
+
 }
 
 /* Prod-category */
