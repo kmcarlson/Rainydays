@@ -44,13 +44,13 @@ a {
 
 .topbar .infosection {
   margin: 0;
-  background-color: #CACFD6;
-  max-height: 50px;
+  max-height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
   font-size: smaller;
+  border-bottom-style: inset
 }
 
 .topbar nav {
@@ -138,19 +138,6 @@ a {
 }
 
 
-/*Icons*/
-/* .fa-user {
-  position: absolute;
-  right: 30px;
-  width: 200px;
-  height: 120px;
-}
-
-.fa-heart {
-  position: absolute;
-  right: 50px;
-}  */
-
 /* Smallfooter  */
 .smallfooter {
   background-color: #517664;
@@ -171,14 +158,8 @@ footer {
   justify-content: space-around;
   padding-bottom: 25px;
   list-style-type: none;
+  font-size: small;
 }
-/* 
-.footer.info {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-bottom: 25px;
-} */
 
 .imgtext {
   background: transparent;
@@ -212,15 +193,23 @@ footer {
   height: 200px;
   object-position: 0% 50%;
 }
-
+/* 
 .prod-cat {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+} */
+
+.prod-cat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 25px;
+  flex-wrap: wrap;
 }
 
 .prod-cat img {
-  max-height: 200px;
+  max-height: 100px;
   max-width: 100px;
 }
 
