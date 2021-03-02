@@ -1,7 +1,3 @@
-html, body {
-
-}
-
 body {
   color: #000;
   background-color: #fff;
@@ -44,6 +40,8 @@ a {
   text-decoration: underline;
 }
 
+/* Topbar */
+
 .topbar .infosection {
   margin: 0;
   background-color: #CACFD6;
@@ -52,6 +50,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  font-size: smaller;
 }
 
 .topbar nav {
@@ -65,19 +64,27 @@ a {
   height: auto;
 }
 
-/* Frontpage */
+
+/* mid-slider */ 
+
 .slidermid {
-  /* background-image: url("../images/slider.png"); */
-  /* min-height: 70vh; */
-  /* background-repeat: no-repeat; */
+  position: relative;
 }
 
-.slidermid img {
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.slidermid img { 
   object-fit: cover;
-  /* max-height:300px; */
   width: 100%;
   height: 300px;
   object-position: 0% 50%;
+  opacity: 0.5
 }
 
 /* Front - article  */
