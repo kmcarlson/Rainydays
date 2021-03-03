@@ -229,3 +229,15 @@ input,
 textarea {
   border: 5px, #707070;
 }
+
+@media only screen and (max-width: 600px) {
+  body {background: red;}
+}
+
+@media only screen and (min-width: 600px) {
+  body {background: green;}
+}
+
+@media only screen and (min-width: 992px) {
+  body {background: orange;}
+} 
