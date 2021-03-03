@@ -64,6 +64,20 @@ a {
   height: auto;
 }
 
+/* Font-category */
+.front-categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 25px;
+  
+}
+
+.column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 10px;
+}
 
 /* mid-slider */ 
 
@@ -91,28 +105,21 @@ a {
 
 .front-news {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  /* flex-direction: row; */
+  justify-content: center;
+  /* padding: 25px; 
+  flex-wrap: wrap; */
   padding: 25px;
-  flex-wrap: wrap;
-}
-
-/* .front-news .article {
-  min-width: 200px;
-} */
-
-/* Font-category */
-.front-categories {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-bottom: 25px;
-  flex-wrap: wrap;
 }
 
 .article {
   position: relative;
   color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-left: 20px;
+  /* margin-right: 10px; */
 }
 
 .toptext > *, .bottomtext > * {
@@ -136,6 +143,10 @@ a {
   bottom: 1rem;
   left: 1rem;
 }
+
+/* .front-news .article {
+  min-width: 200px;
+} */
 
 
 /* Smallfooter  */
