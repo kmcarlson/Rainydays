@@ -67,7 +67,7 @@ a {
 /* Font-category */
 .front-categories {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   padding-bottom: 25px;
   
@@ -75,7 +75,7 @@ a {
 
 .column {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1 1fr;
   margin-left: 10px;
 }
 
@@ -236,8 +236,20 @@ textarea {
 
 @media only screen and (min-width: 600px) {
   body {background: green;}
+  .front-categories {
+    flex-direction: column;
+  }
+ .column {
+   grid-template-columns: repeat(2, 1fr);
+ }
 }
 
 @media only screen and (min-width: 992px) {
   body {background: orange;}
-} 
+  .front-categories {
+    flex-direction: row;
+  }
+ .column {
+   grid-template-columns: repeat(3, 1fr);
+ }
+}   
