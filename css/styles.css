@@ -223,6 +223,23 @@ footer {
   max-width: 100px;
 }
 
+/* singel-prod */
+.prod-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.prod-page img {
+  height: 400px;
+  width: 400px;
+}
+
+.variant {
+  border: 5px solid green ;
+  width: 5px;
+  height: 5px;
+}
+
 /*contakt*/
 input,
 textarea {
@@ -262,7 +279,13 @@ textarea {
 
 .article {
   grid-template-columns: repeat(4, 1fr);
-
 }
+
+
+.prod-page {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
 }   
