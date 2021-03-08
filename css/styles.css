@@ -108,8 +108,8 @@ a {
 .slidermid img { 
   object-fit: cover;
   width: 100%;
-  height: 300px;
-  object-position: 0% 50%;
+  height: 350px;
+  object-position: 0% 45%;
   opacity: 0.5
 }
 
@@ -124,6 +124,8 @@ a {
   flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .article {
