@@ -151,6 +151,7 @@ a {
 .article img {
   width: 250px;
   height: 250px;
+  opacity: 0.7;
 }
 
 .article .toptext {
@@ -290,7 +291,6 @@ textarea {
 .article {
   /* grid-template-columns: repeat(4, 1fr); */
 }
-
 
 .prod-page {
   flex-direction: row;
