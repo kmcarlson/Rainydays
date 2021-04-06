@@ -20,6 +20,17 @@ header a {
   font-size: larger;
 }
 
+button {
+  background-color: #2D3319;
+  color: #FFFFFF;
+  height: 40px;
+  border-bottom-style: none;
+}
+/* 
+a {
+  color: #517664;
+} */
+
 /*nav*/
 
 nav {
@@ -41,6 +52,7 @@ nav li {
 a {
   text-decoration: none;
   font-weight: 600;
+  color: #517664;
 }
 
 .active {
@@ -415,6 +427,10 @@ textarea {
 
 .justify-content-between {
   justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
 }
 
 
