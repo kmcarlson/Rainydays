@@ -339,6 +339,10 @@ textarea {
   background-color: #9FD8CB;
 }
 
+#Card-number {
+  width: 90%;
+}
+
 input[type=submit] {
   width: 100%;
   background-color: #2D3319;
