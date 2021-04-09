@@ -47,27 +47,31 @@
 
 <h1>Shopping cart</h1>
 
-<div class="d-flex justify-content-around" >
-   <div>
-      <h3> Jacketblack </h3>
-      <img src="images/prod/The Black.png" alt="jacketblack" class = "medium-img"> 
-      <table style="width: 265px; height: 67px;">
-         <tbody>
-         <tr>
-         <td style="width: 101px;">&nbsp;Quantity</td>
-         <td style="width: 81px;">Price&nbsp;</td>
-         <td style="width: 82px;">Total</td>
-         </tr>
-         <tr>
-         <td style="width: 101px;">&nbsp;1</td>
-         <td style="width: 81px;">&nbsp;1799,-</td>
-         <td style="width: 82px;">1799,-&nbsp;</td>
-         </tr>
-         </tbody>
-         </table>
+<div class="d-flex justify-content-around flex-wrap" >
+   <div class="col-1-2">
+         <table class="summary">
+            <thead>
+              <tr>
+                <th scope="col"> </th>
+                <th scope="col">Name</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+                <th scope="col">Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row"><img src="images/prod/The Black.png" alt="jacketblack"></td>
+                <td data-label="Name">Jacketblack</td>
+                <td data-label="Quantity">1</td>
+                <td data-label="Price">1.799,-</td>
+                <td data-label="Total">1.799,-</td>
+              </tr>
+            </tbody>
+          </table>
    </div> 
    
-   <div> 
+   <div class="col-1-2"> 
          <input type="text" id="First Name" name="First Name" input placeholder="First Name">
          <input type="text" id="Surname" name="Surname" input placeholder="Surname"><br>
          <input type="text" id="Postal address" name="Postal address" input placeholder="Postal address">

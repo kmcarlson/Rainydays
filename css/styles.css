@@ -96,7 +96,7 @@ a {
 /* Font-category */
 .front-categories {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   padding-bottom: 25px;
   flex-wrap: wrap;
@@ -339,9 +339,9 @@ textarea {
   background-color: #9FD8CB;
 }
 
-#Card-number {
+/* #Card-number {
   width: 90%;
-}
+} */
 
 input[type=submit] {
   width: 100%;
@@ -354,11 +354,104 @@ input[type=submit] {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 600px) {
+.summary {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.summary caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+.summary tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+.summary th,
+.summary td {
+  padding: .625em;
+  text-align: center;
+}
+
+.summary th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.summary img {
+  width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.col-1-2 {
+  width: 50%;
+}
+
+
+
+@media only screen and (max-width: 770px) {
   /* body {background: green;} */
   .front-categories {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around; 
+    
   }
+  .summary {
+    border: 0;
+  }
+
+  .summary caption {
+    font-size: 1.3em;
+  }
+  
+  .summary thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  .summary tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  .summary td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  .summary td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .summary td:last-child {
+    border-bottom: 0;
+  }
+
+  .col-1-2 {
+    width: 100%;
+  }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -370,9 +463,8 @@ input[type=submit] {
 
   .front-categories {
     flex-direction: row;
-    justify-content: space-between; 
-    
   }
+  
  .column {
    justify-content: center;
  }
@@ -416,6 +508,10 @@ input[type=submit] {
 
 .flex-column {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .align-items-center {
