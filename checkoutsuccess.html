@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="rainy days - jackets">
-      <title>Rainydays | Home</title>
+      <title>Rainydays | Checkout Success</title>
       <link href="css/styles.css" rel=stylesheet />
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?famliy=Open+Sans&display=swap" rel="stylesheet">
@@ -45,42 +45,50 @@
       </div>
    </section>
 
-<h1>Your order</h1>
-
-<div class="d-flex justify-content-around" >
-   <div>
-      <h3> Jacketblack </h3>
-      <img src="/images/prod/The Black.png" alt="jacketblack" class = "medium-img"> 
-      <table style="width: 265px; height: 67px;">
-         <tbody>
-         <tr>
-         <td style="width: 101px;">&nbsp;Quantity</td>
-         <td style="width: 81px;">Price&nbsp;</td>
-         <td style="width: 82px;">Total</td>
-         </tr>
-         <tr>
-         <td style="width: 101px;">&nbsp;1</td>
-         <td style="width: 81px;">&nbsp;1799,-</td>
-         <td style="width: 82px;">1799,-&nbsp;</td>
-         </tr>
-         </tbody>
-         </table>
-   </div> 
-   
-   <div> 
-      <h3>Delivery address</h3>
-      <form>
-         <input type="text" id="First Name" name="First Name" input placeholder="First Name">
-         <input type="text" id="Surname" name="Surname" input placeholder="Surname"><br>
-         <input type="text" id="Postal address" name="Postal address" input placeholder="Postal address">
-         <input type="text" id="Zip-code" name="Zip-code" input placeholder="Zip-code"><br>
-         <input type="text" id="City" name="City" input placeholder="City">
-         <input type="text" id="Country" name="Country" input placeholder="Country"><br>
-      </form>  
+   <div class="d-flex justify-content-around flex-wrap" >
+      <div class="col-2-3">
+         <div class="p-5">
+         <h1>Your order</h1>
+            <table class="summary">
+               <thead>
+                 <tr>
+                   <th scope="col"> </th>
+                   <th scope="col">Name</th>
+                   <th scope="col">Quantity</th>
+                   <th scope="col">Price</th>
+                   <th scope="col">Total</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td scope="row"><img src="images/prod/The Black.png" alt="jacketblack"></td>
+                   <td data-label="Name">Jacket black</td>
+                   <td data-label="Quantity">1</td>
+                   <td data-label="Price">1.799,-</td>
+                   <td data-label="Total">1.799,-</td>
+                 </tr>
+               </tbody>
+             </table>
+            </div>
+      </div> 
+      
+      <div class="col-1-3"> 
+         <div class="p-5 input-group d-flex flex-wrap">
+            <h1>Delivery address</h1>
+            <input type="text" id="FirstName" name="First Name" input placeholder="First Name">
+            <input type="text" id="Surname" name="Surname" input placeholder="Surname"><br>
+            <br>
+            <input type="text" id="Postaladdress" name="Postal address" input placeholder="Postal address">
+            <input type="text" id="Zip-code" name="Zip-code" input placeholder="Zip-code"><br>
+            <br>
+            <input type="text" id="City" name="City" input placeholder="City">
+            <input type="text" id="Country" name="Country" input placeholder="Country"><br>
+         </div>
+      </div>
    </div>
 </div>
 </main>
-
+<br>
 <section class="smallfooter">
    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis lacinia nulla, a auctor metus. Aenean iaculis quis mi eget laoreet. <br>Vivamus ut 
       dignissim ante. Mauris rutrum consequat aliquet. 

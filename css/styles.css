@@ -12,6 +12,9 @@ body {
 body > main {
   max-width: 1600px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 header a {
@@ -280,6 +283,7 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   padding-bottom: 25px;
+  padding-top: 25px;
   flex-wrap: wrap;
 }
 
@@ -344,7 +348,6 @@ textarea {
 } */
 
 input[type=submit] {
-  width: 100%;
   background-color: #2D3319;
   color: #FFFFFF;
   padding: 14px 20px;
@@ -395,6 +398,24 @@ input[type=submit] {
 .col-1-2 {
   width: 50%;
 }
+
+.col-1-3 {
+  width: 33%;
+}
+
+.col-2-3 {
+  width: 67%;
+}
+
+#Card-number {
+  width: calc(100% - 40px);
+}
+
+.input-group input {
+  width: 38%;
+  margin: 5px;
+}
+
 
 
 
@@ -452,6 +473,17 @@ input[type=submit] {
     width: 100%;
   }
 
+  .col-1-3 {
+    width: 100%;
+  }
+
+  .col-2-3 {
+    width: 100%;
+  }
+
+  .input-group input {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -464,35 +496,35 @@ input[type=submit] {
   .front-categories {
     flex-direction: row;
   }
-  
+
  .column {
-   justify-content: center;
- }
+    justify-content: center;
+  }
 
  .front-news {
- flex-direction: row;
- justify-content: space-between;
-}
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
 
-.prod-page {
-  flex-direction: row;
-  justify-content: space-between;
-}
+  .prod-page {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-.prod-cat > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .prod-cat > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
 
-.prod-page {
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: 
-      "productImage productIngress productIngress"
-      "productDetails productDetails productDetails";
-}
+  .prod-page {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "productImage productIngress productIngress"
+        "productDetails productDetails productDetails";
+  }
 
 }
 
@@ -535,4 +567,20 @@ input[type=submit] {
   justify-content: space-around;
 }
 
+.p-5 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
+.mt-10 {
+  padding-top: 40px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.growerNotAShower {
+  flex: 1;
+  height: 100%;
+}
