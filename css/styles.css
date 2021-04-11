@@ -419,7 +419,7 @@ input[type=submit] {
 }
 
 .input-group input {
-  width: 38%;
+  width: 35%;
   margin: 5px;
 }
 
@@ -447,7 +447,6 @@ input[type=submit] {
     width: 30px;
     margin-top: 30px;
 }
-  }
 
   /* body {background: green;} */
   .front-categories {
@@ -513,6 +512,7 @@ input[type=submit] {
   .input-group input {
     width: 100%;
   }
+}
 
 
 @media only screen and (min-width: 992px) {
