@@ -430,8 +430,19 @@ input[type=submit] {
     display: none; 
   }
 
-  #mobil-menu:checked ~ ul{
+  nav {position: relative;}
+
+  #mobil-menu:checked ~ ul {
     display: block;
+    background-color: red;
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+    
+  }
+
+  #mobil-menu:checked ~ ul li {
+    margin: 5px;
   }
 
   #mobil-menu {
@@ -442,7 +453,7 @@ input[type=submit] {
     position: absolute;
     right: 0px;
     width: 30px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
   /* body {background: green;} */
