@@ -338,11 +338,6 @@ footer a {
 }
 
 
-.variant {
-  border: 5px solid green ;
-  width: 5px;
-  height: 5px;
-}
 
 /*contakt*/
 input,
@@ -434,7 +429,7 @@ input[type=submit] {
 
   #mobil-menu:checked ~ ul {
     display: block;
-    background-color: red;
+    background-color: #517664;
     position: absolute;
     top: 70px;
     z-index: 1;
@@ -453,10 +448,9 @@ input[type=submit] {
     position: absolute;
     right: 0px;
     width: 30px;
-    /* margin-top: 30px; */
 }
 
-  /* body {background: green;} */
+  
   .front-categories {
     flex-direction: row;
     justify-content: space-around; 
