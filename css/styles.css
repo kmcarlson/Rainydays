@@ -2,6 +2,10 @@
 @import url('helpers.css');
 
 /* main */
+/* 
+html, body {
+  width: 100%;
+} */
 
 body {
   color: #000;
@@ -55,9 +59,6 @@ nav li {
   display: inline-block;
 }
 
-/* .hidden {
-  display: none;
-} */
 
 /*link*/
 
@@ -236,7 +237,6 @@ footer {
 }
 
 .footer-wrapper {
-  /* display: flex; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -350,10 +350,6 @@ textarea {
 .contact-background-color {
   background-color: #9FD8CB;
 }
-
-/* #Card-number {
-  width: 90%;
-} */
 
 input[type=submit] {
   background-color: #2D3319;
@@ -514,6 +510,11 @@ input[type=submit] {
   .hide-mobile {
     display: none;
   }
+
+  .footer-wrapper {
+    justify-content: space-evenly;
+  }
+
 }
 
 
@@ -571,6 +572,7 @@ input[type=submit] {
 .checkout {
   display: grid;
   grid-template-columns: 1fr;
+  margin-bottom: 2rem;
 }
 
 .delivery-and-purchase input {
@@ -605,11 +607,10 @@ input[type=submit] {
 }
 
 .contact .contact-information {
-  /* d-flex flex-column align-items-center contact-background-color p-5 justify-content-center mb-3 */
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #517664;
+  background-color: #9FD8CB;
   padding-left: 20px;
   padding-right: 20px;
   justify-content: center;
