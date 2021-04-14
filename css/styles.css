@@ -113,13 +113,15 @@ a {
   padding-bottom: 25px;
   flex-wrap: wrap;
   align-items: center;
- width: 100%;
+  width: 100%;
+
 }
 
 
 .imgtext img {
   height: 400px;
   width: 400px;
+  object-fit: cover;
 }
 
 /* Slider */ 
@@ -162,6 +164,7 @@ a {
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
+  object-fit: cover;
 }
 
 .article {
