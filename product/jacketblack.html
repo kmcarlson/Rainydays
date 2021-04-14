@@ -39,7 +39,7 @@
          </nav> 
       </header>
 
-<main class="prod-page ">
+<main class="prod-page" itemscope itemtype="https://schema.org/Product" >
       <section class="d-flex flex-column align-items-center product-image">
          <div class="d-flex flex-row align-items-center">
             <p> < </p>
@@ -50,10 +50,11 @@
       </section>
 
       <section class="product-ingress d-flex flex-column justify-content-between">
-         <h1>Jacket black</h1> 
+         <h1 itemprop="name">Jacket black</h1> 
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quidem qui est adipisci culpa recusandae commodi molestiae ipsum nostrum lilo, id accusamus, omnis odio sint iusto ullam accusantium dolor totam?</p>
-         <strong>1.799,-</strong>
-         <br>
+         <div class="price">
+            <s>2.799,-</s><strong>1.799,-</strong>
+         </div>
          <a href="../checkout.html">
             <button>Add to Cart</button>
         </a>
@@ -63,7 +64,7 @@
    <section class="product-details">
       <h3>Product description</h3>
          <br>
-            <p>
+            <p itemprop="description">
                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
                Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                 At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
