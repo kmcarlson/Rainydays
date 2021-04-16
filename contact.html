@@ -5,10 +5,10 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="rainy days - jackets">
-      <title>Rainydays | Home</title>
+      <title>Rainydays | Contact us</title>
       <link href="css/styles.css" rel=stylesheet />
       <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?famliy=Open+Sans&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
       <script src="https://kit.fontawesome.com/075c648cb7.js" crossorigin="anonymous"></script>
    </head>
    <body>
@@ -24,8 +24,11 @@
                </div>
             </div>
          </div>
+         
          <nav>
             <a href="index.html">  <img src="images/Logo.png"  alt="Rainydays"> </a>
+            <label for="mobil-menu" class="hidden bars"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="mobil-menu"/> 
             <ul>
                <li> <a href="men.html">Men</a></li>
                <li> <a href="women.html">Women</a></li>
@@ -39,34 +42,34 @@
 <main>
 
    <section>
-      <div class="categoryslider">
-         <img src="images/slider.png" alt=Slider>
-         <div class="center">Her kommer det en tekst</div>
+      <div class="slider">
+         <img src="images/slider3.jpg" alt=contact class="slider-background">
+         <img class="center" src="images/slogen.png" alt="slogen">
       </div>
    </section>
 
-<h1>Contact us</h1>
+<section class="Contact" >
 
-<div> 
-   <h2>Contant information</h2> 
-   <h3>emali her</h3>
-   <h3>Telefon nr her</h3>
-   <h3>Adresse her</h3>  
-</div>
-
-<div> 
-   <form>
-      <input type="text" id="name" name="name" input placeholder="Name"><br>
-      <br>
-      <input type="emali" id="emali" name="emali" input placeholder="Emali"><br>
-      <br>
-      <input type="tel" id="phone" name="phone" input placeholder="Phone"><br>
-      <br>
+<div class="contact " >
+    
+   <div class="contact-information">
+      <h2>Contant information</h2> 
+      <div>
+         <i class="fas fa-phone"></i>  <p>000 00 000</p> 
+         <i class="far fa-envelope"></i> <p> hello@rainydays.com </p>
+         <i class="fas fa-home"></i> <p>Myrerveien 230, 0494 Oslo</p> 
+      </div> 
+   </div>  
+ 
+   <form class="contact-form p-5">
+      <input type="text" id="name" name="name" input placeholder="Name">
+      <input type="emali" id="emali" name="emali" input placeholder="Emali">
+      <input type="tel" id="phone" name="phone" input placeholder="Phone">
       <textarea id="message" placeholder="Your message" name="message" ></textarea>
-      <br>
       <input type="submit" value="Send message">
    </form>  
 </div>
+</section>
 </main>
 
 <section class="smallfooter">
@@ -74,27 +77,30 @@
       dignissim ante. Mauris rutrum consequat aliquet. 
       Curabitur nec felis cursus, molestie lorem eu, interdum erat. Donec maximus lacinia dapibus. Nulla </h3>
 </section>
+
 <footer class="footer-info">
    <div class="footer-wrapper">
       <div> 
          <p>CUSTOMER SERVICE</p>
-         <li>About</li>
-         <li>Contact Us</li>
+         <a href="About.html"><p>About</p></a>
+         <a href="contact.html"><p>Contact Us</p></a>
       </div> 
 
       <div>
          <p>MY PAGES</p>
-         <li>My proflie</li>
-         <li>My ordres</li>
+         <p>My proflie</p>
+         <p>My ordres</p>
       </div>
 
       <div>
          <p>FOLLOW US</p>
-         <li>Facebook</li>
-         <li>Instragram</li>
-         <li>Twitter</li>
+         <p>Facebook</p>
+         <p>Instragram</p>
+         <p>Twitter</p>
       </div>  
    </div>
 </footer>
 </body>
 </html>
+
+
