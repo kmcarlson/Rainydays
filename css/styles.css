@@ -187,7 +187,7 @@ a {
 
 .slider h3 {
   color: #FFFFFF;
-  font-size: 800;
+  font-weight: 800;
 }
 
 /* Front - article  */
@@ -208,7 +208,7 @@ a {
   position: relative;
   color: #fff;
   display: grid;
-  grid-template-columns: 1;
+  grid-template-columns: 1fr;
   grid-gap: 10px;
   justify-content: center;
   padding-bottom: 10px;
@@ -589,7 +589,7 @@ input[type=submit] {
   
   .summary thead {
     border: none;
-    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
     height: 1px;
     margin: -1px;
     overflow: hidden;
