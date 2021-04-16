@@ -34,7 +34,7 @@
   
   .medium-img {
     height: auto;
-    max-width: 400px;
+    max-width: 100%;
   }
   
   .p-5 {
