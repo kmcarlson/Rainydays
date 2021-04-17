@@ -158,22 +158,6 @@ a {
   opacity: 0.5
 }
  
-.thanks{
-  position: relative;
-  font-family: 'Bubblegum Sans', cursive;
-  width: 100%;
-  height: 350px;
-  background-color: #d6e5e3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.thanks h1 {
-  font-size: 3rem;
-}
-
-
 .slider h3 {
   color: #FFFFFF;
   font-weight: 800;
@@ -440,23 +424,11 @@ input[type=submit] {
     object-fit: contain;
 }
 
-.col-1-2 {
-  width: 50%;
-}
-
-.col-1-3 {
-  width: 33%;
-}
-
-.col-2-3 {
-  width: 67%;
-}
-
 #Card-number {
   width: calc(100% - 40px);
 }
 
-/* Checkout */
+/* Checkout and order end */
 .checkout {
   display: grid;
   grid-template-columns: 1fr;
@@ -475,6 +447,21 @@ input[type=submit] {
 .delivery-and-purchase .payment {
   display: grid;
   grid-template-columns: 1fr;
+}
+
+.thanks{
+  position: relative;
+  font-family: 'Bubblegum Sans', cursive;
+  width: 100%;
+  height: 350px;
+  background-color: #d6e5e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thanks h1 {
+  font-size: 3rem;
 }
 
 /* contact */
