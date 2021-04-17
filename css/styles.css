@@ -675,9 +675,8 @@ input[type=submit] {
 
   .front-categories {
   grid-template-columns: 1fr 1fr 1fr;
-  width: calc(100% + 2rem);
-  margin-left: -1rem;
-
+  width: auto;
+  /* margin-left: -1rem; */
   }
 
   .imgtext {
