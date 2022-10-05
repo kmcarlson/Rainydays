@@ -1,7 +1,7 @@
 # CROSS COURSE PROJECT
 
 
-![image](https://github.com/kmcarlson/SemesterProject1--/blob/535e4b1ccd82461cb19930ceaaef71fa2968c34a/images/Screenshot.png)
+![image](https://github.com/kmcarlson/portfolio-1/blob/d73bd8714255e6d4978164f12a6c6ce55f6ee801/img/cross-course%20project.png)
 
 A simple overview of the use/purpose of the project.
 
